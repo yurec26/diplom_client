@@ -14,7 +14,7 @@ public class Client {
 
     public static void main(String[] args) throws IOException {
         File fileSettings = new File("C:/Users/Юрий/IdeaProjects/diplom_2/server/src/main/resources/settings.txt");
-        File filelog = new File("C:/Users/Юрий/IdeaProjects/diplom_2/client/src/main/resources/log.txt");
+        File filelog = new File("client/src/main/resources/log.txt");
 
         if (choosePort(fileSettings)) {
             connect(filelog);
