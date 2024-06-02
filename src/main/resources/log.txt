@@ -1,0 +1,9 @@
+'admin: Write your name: ' 19:45
+'admin: Hello, 456, you can start chatting:' 19:45
+'----------------------' 19:45
+'admin : user 456 entered the chat.' 19:45
+'456: ddd' 19:45
+'admin: Write your name: ' 19:46
+'admin: Hello, 456, you can start chatting:' 19:46
+'----------------------' 19:46
+'admin : user 456 entered the chat.' 19:46

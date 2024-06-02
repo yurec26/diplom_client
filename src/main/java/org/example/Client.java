@@ -14,7 +14,7 @@ public class Client {
 
     public static void main(String[] args) throws IOException {
         File fileSettings = new File("C:/Users/Юрий/IdeaProjects/diplom_2/server/src/main/resources/settings.txt");
-        File filelog = new File("client/src/main/resources/log.txt");
+        File filelog = new File("src/main/resources/log.txt");
 
         if (choosePort(fileSettings)) {
             connect(filelog);
@@ -24,7 +24,7 @@ public class Client {
 
     public static void connect(File log) {
         scanner = new Scanner(System.in);
-        try (Socket socketClient = new Socket("netology.homework", PORT)) {
+        try (Socket socketClient = new Socket("localhost", PORT)) {
             PrintWriter printWriter = new PrintWriter(socketClient.getOutputStream(), true);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(socketClient.getInputStream()));
             // поток вывода всех накоппившихся сообщений
