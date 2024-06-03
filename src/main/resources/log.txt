@@ -7,3 +7,7 @@
 'admin: Hello, 456, you can start chatting:' 19:46
 '----------------------' 19:46
 'admin : user 456 entered the chat.' 19:46
+'admin: Write your name: ' 13:04
+'admin: Hello, аа, you can start chatting:' 13:04
+'----------------------' 13:04
+'admin : user аа entered the chat.' 13:04

@@ -13,7 +13,7 @@ public class Client {
     static FileWriter writer;
 
     public static void main(String[] args) throws IOException {
-        File fileSettings = new File("C:/Users/Юрий/IdeaProjects/diplom_2/server/src/main/resources/settings.txt");
+        File fileSettings = new File("src/main/resources/settings.txt");
         File filelog = new File("src/main/resources/log.txt");
 
         if (choosePort(fileSettings)) {
